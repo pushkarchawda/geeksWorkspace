@@ -18,7 +18,7 @@ public class HeapSort {
 	private static void heapSort(int[] a) {
 		// TODO Auto-generated method stub
 		
-		for (int i = a.length / 2 - 1; i >= 0; i--) {
+		for (int i = a.length-1/2; i >= 0; i--) {
 			heapify(a, a.length-1, i);
 		}
 		

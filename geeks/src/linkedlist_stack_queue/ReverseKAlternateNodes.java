@@ -46,15 +46,13 @@ public class ReverseKAlternateNodes {
 			count++;
 		}
 		
-		
-		
 		if(current!=null)
 			current.next = reverseInGrps(current.next, k);
 		
 		return prev;
 	}
 	
-	Node reverse(Node start, Node sPrev, int k)
+	/*Node reverse(Node start, Node sPrev, int k)
 	{
 		Node next = null, prev = sPrev, current = start;
 		int count = 0;
@@ -68,7 +66,7 @@ public class ReverseKAlternateNodes {
 		
 		return prev;
 
-	}
+	}*/
 
 	public void push(int new_data)
     {

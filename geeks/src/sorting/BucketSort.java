@@ -29,7 +29,7 @@ public class BucketSort {
 		
 		for(int x=0;x<a.length;x++)
 		{
-			buckets[hash(a[x], code)].add(a[x]) ;
+			buckets[hash(a[x], code)].add(a[x]);
 		}
 		
 		for(ArrayList x : buckets)

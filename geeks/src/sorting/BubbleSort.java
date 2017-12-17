@@ -12,9 +12,6 @@ public class BubbleSort {
 
 	private static void bubbleSort(int[] a) {
 
-		boolean flag = true;
-		int count = 0;
-				
 		for(int j=0;j<a.length;j++)
 		{
 			for(int i=0;i<a.length-j-1;i++)
