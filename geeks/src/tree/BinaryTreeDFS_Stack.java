@@ -51,15 +51,10 @@ public class BinaryTreeDFS_Stack {
 		}
 
 		while (!s1.isEmpty()) {
-			
-
-			
 				Node temp = (Node) s1.pop();
-
 				System.out.print(temp.d+"->");
 				if (temp.right != null) {
 				current = temp.right;
-
 				while (current != null) {
 					s1.push(current);
 					current = current.left;
@@ -67,7 +62,6 @@ public class BinaryTreeDFS_Stack {
 			}
 		}
 		System.out.println();
-
 	}
 
 	private void printPreorder(Node root) {

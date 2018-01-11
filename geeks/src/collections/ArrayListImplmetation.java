@@ -30,14 +30,17 @@ public class ArrayListImplmetation<E> extends AbstractList<E> implements List<E>
 
 		arr[this.index] = e;
 		this.index++;
-		return false;
+		return true;
 	}
 
 	@Override
 	public void add(int index, E element) {
 		if(index<count)
 		{
-			
+			/*index+c,size()<count
+			arr[this.index] = e;
+			this.index++;
+			return false;*/
 		}
 		else
 		{

@@ -63,6 +63,7 @@ public class WideningPrimitiveConversion {
 	public static void main(String[] args) {
 
 		System.out.print("Y" + "O");
+		//System.out.print(1+2+3+"Y" + "O");
 		System.out.print('L');
 		System.out.print('O');
 		System.out.println("----------------------");

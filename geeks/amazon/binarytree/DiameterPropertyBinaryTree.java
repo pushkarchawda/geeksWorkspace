@@ -1,7 +1,5 @@
 package binarytree;
 
-import java.lang.reflect.Array;
-
 /**
  * Prefer - http://algorithms.tutorialhorizon.com/diameter-of-a-binary-tree/
  * 

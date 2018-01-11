@@ -6,7 +6,7 @@ public class CoinChange_TotalCount {
 
 	public static void main(String[] args) {
 		
-		int coin[] = new int[]{1,2,3};
+		int coin[] = new int[]{1,2,4};
 		int value = 5;
 		
 		MaxCoin = new int[coin.length+1][value+1];
