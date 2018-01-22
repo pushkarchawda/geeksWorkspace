@@ -3,6 +3,7 @@ package collections;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
@@ -11,6 +12,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 
 interface A
@@ -86,8 +88,11 @@ public class HashMapSort implements Comparator<Map.Entry<String, String>> {
 		});*/
 
 		
+		TreeSet<Integer> tm = new TreeSet();
+		HashSet<Integer> hmi = new HashSet();
 		
-		
+		tm.add(null);
+		hmi.add(null);
 		
 		Collections.sort(lis,new HashMapSort());
 		Map<String, String> unlinkedMap = new LinkedHashMap<String, String>();
