@@ -6,7 +6,7 @@ public class SubsetGivenSum {
 
 	public static void main(String[] args) {
 
-		int set[] = { 3, 34, 4, 12, 5, 2 };
+		int set[] = { 3, 6, 34, 4, 12, 5, 6 };
 		int sum = 9;
 		int n = set.length;
 
